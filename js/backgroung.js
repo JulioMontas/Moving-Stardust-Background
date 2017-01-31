@@ -40,7 +40,7 @@ $(function () {
   spotLight2.intensity = 1.5;
   scene.add( spotLight2 );
 
-  $("#WebGL-output"). append(renderer.domElement);
+  $("#stardusBackground"). append(renderer.domElement);
 
   //call render loop once
   render();
