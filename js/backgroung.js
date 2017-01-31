@@ -7,7 +7,7 @@ $(function () {
   renderer.setSize(window.innerWidth, window.innerHeight);
 
   //Space background is a large sphere
-  var spacetex = new THREE.TextureLoader().load( "img/3d-background/space-05.jpg");
+  var spacetex = new THREE.TextureLoader().load( "img/spaceBG.jpg");
   var spacesphereGeo = new THREE.SphereGeometry(20,20,20);
   var spacesphereMat = new THREE.MeshPhongMaterial();
   spacesphereMat.map = spacetex;
