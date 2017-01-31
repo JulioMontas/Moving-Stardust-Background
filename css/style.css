@@ -1,0 +1,140 @@
+html,
+body,
+.page {
+  height: 100%; /* needed for proper layout */
+}
+body {
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+p {
+  margin-bottom: 1em;
+}
+
+
+
+#stardusBackground {
+    position: fixed;
+    z-index: -1;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.page-header {
+  flex: 0 0 auto;
+}
+
+.page-header > nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.page-header > nav > ul:nth-child(1) {margin-left: -25px;}
+.page-header > nav > ul:nth-child(2) {margin-right: 15px;}
+
+.page-header > nav ul li {list-style: none}
+
+.page-header > nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+.page-content {
+	flex: 1 1 auto;
+	position: relative;
+	overflow-y: auto;
+	background-color: rgba(255,255,255,0.0);
+	color: white;
+	margin-top: -75px;
+}
+
+
+.page-content > header {
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 70px 0 60px 0;
+}
+
+.page-content > header > h2 {
+	font-size: 36px;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: -5px;
+}
+
+.page-content > header > p {
+   font-size: 16px;
+   font-weight: 100;
+   letter-spacing: 1px;
+   line-height: 26px;
+}
+
+.page-content > section {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+
+
+
+
+.tab-navbar {
+	display: inline-flex;
+	width: 985px;
+	justify-content: space-between;
+}
+
+.tab-navbar > li:nth-child(1) {margin-left: -40px;}
+
+.tab-navbar  > li {list-style: none}
+.tab-navbar  > li a{
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+#five > p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 1px;
+}
+
+
+.album-cta{
+  background: red;
+}
+
+
+
+
+
+
+
+.page-footer {
+  background-color: rgba(17, 17, 17,0.5);
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
