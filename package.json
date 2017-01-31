@@ -1,0 +1,24 @@
+{
+  "name": "julio-montas",
+  "version": "1.0.0",
+  "description": "360 background moving",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulioMontas/Moving-Stardust-Background.git"
+  },
+  "keywords": [
+    "three.js",
+    "360",
+    "background"
+  ],
+  "author": "Julio Montas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulioMontas/Moving-Stardust-Background/issues"
+  },
+  "homepage": "https://github.com/JulioMontas/Moving-Stardust-Background#readme"
+}
